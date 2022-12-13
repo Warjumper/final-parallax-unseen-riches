@@ -23,15 +23,11 @@ header {
   z-index: 10000;
 }
 header .logo {
-  /* color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px; */
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 100px;
 }
-
-
 header ul {
   display: flex;
   justify-content: center;
@@ -129,10 +125,4 @@ section img#dj-hand {
 .sec p {
   font-size: 1em;
   color: #fff;
-}
-.logo {
-  display: inline-block;
-  vertical-align: top;
-  width: 100px;
-  height: 100px;
 }
