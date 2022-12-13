@@ -1,5 +1,6 @@
 # final-parallax-unseen-riches
 Unseen Riches Parallax
+gh pages - https://warjumper.github.io/final-parallax-unseen-riches/
 
 
 ### Attributions
