@@ -135,3 +135,37 @@ section img#frontmtn2 {
   font-size: 1em;
   color: #fff;
 }
+
+
+@media screen and (max-width: 600px) {
+  header ul li{
+    display: none;
+  }
+  header .logo {
+    margin-left: 43px;
+    margin-top: 140px;
+    position: absolute;
+  }
+  #text {
+    font-size: 40px;
+    margin: auto;
+  }
+  #btn {
+    font-size: 20px;
+  }
+  section img#frontmtn1 {
+    display: none;
+  }
+  section img#frontmtn2 {
+    display: none;
+  }
+  .sec h2 {
+    font-size: 24px;
+    text-align: left;
+    
+  }
+  .sec p {
+    font-size: 18px;
+    text-align: left;
+  }
+}
