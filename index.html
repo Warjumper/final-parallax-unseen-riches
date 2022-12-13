@@ -20,7 +20,9 @@
       </ul>
     </header>
     <section>
-      <img src="images/neon-mountain.jpg" id="neonmtn" alt="" />
+      <img src="images/neon-mountain.jpg" id="neonmtn" alt="background mountains" />
+      <img src="images/frontmtn1.svg" id="frontmtn1" alt="foreground mountains" />
+      <img src="images/frontmtn2.svg" id="frontmtn2" alt="foreground mountains" />
       <h2 id="text"><em>Unseen Riches</em></h2>
       <a href="#sec" id="btn">Explore</a>
     </section>
@@ -40,19 +42,20 @@
 
     <script>
       let neonmtn = document.getElementById("neonmtn");
-      let nothing = document.getElementById("nothing");
-      let djhand = document.getElementById("djhand");
+      let frontmtn1 = document.getElementById("frontmtn1");
+      let frontmtn2 = document.getElementById("frontmtn2");
       let text = document.getElementById("text");
       let btn = document.getElementById("btn");
       let header = document.querySelector("header");
 
       window.addEventListener("scroll", function () {
         let value = window.scrollY;
-        neonmtn.style.top = value * 0.25 + "px";
+        neonmtn.style.top = value * 0.25 + "px"; 
         text.style.marginBottom = value * 5 + "px";
         text.style.marginTop = value * 1.5 + "px";
         btn.style.marginBottom = value * 3 + "px";
         header.style.top = value * 0.25 + "px";
+        frontmtn1.style.left = value * 0.25 + "px";
       });
     </script>
   </body>
